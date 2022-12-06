@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Table</title>
+    <style>
+        table{
+            width: 50%;
+        }
+        table,th,td{
+            border: 2px solid rgb(16, 10, 138);
+            border-collapse: collapse;
+        }
+        td,th{
+            padding: 10px;
+            text-align: center;
+        }
+        odd even
+        /* tr:nth-child(odd){
+            background-color: aquamarine; */
+        }
+        tr:nth-child(even){
+            background-color: blanchedalmond;
+        }
+        /* tr.row1{
+            background-color: chartreuse; */
+    
+        .tcoll{
+            background-color: rgb(221, 21, 21);
+        }
+        .tcoll3{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup span="2" class="tcoll"> </colgroup>
+        <colgroup span="2" class="tcoll2"> </colgroup>
+        <colgroup span="2" class="tcoll3"> </colgroup>
+
+
+           <tr class="row1"> 
+            <th> Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th> Name</th> 
+            <th>Email</th>
+            <th>Phone</th>
+           </tr>
+
+           <tr>
+            <!-- <td rowspan="2">Sanjay</td>
+             -->
+             <td>Sanjay</td>
+            <td>Sanjayboharasbbb@gmail.com</td>
+            <td>9571557896</td>
+            <td>Sanjay</td>
+            <td>Sanjayboharasbbb@gmail.com</td>
+            <td>9571557896</td>
+           </tr>
+           <tr>
+            <!-- <td>Sanjay</td> -->
+            <td>Sanjay</td>
+            <td>Sanjayboharasbbb@gmail.com</td>
+            <td>9571557896</td>
+            <td>Sanjay</td>
+            <td>Sanjayboharasbbb@gmail.com</td>
+            <td>9571557896</td>
+           </tr>
+           <tr>
+            <td>abhishek</td>
+            <td>Sanjayboharasbbb@gmail.com</td>
+            <td>9571557896</td>
+            <td>Sanjay</td>
+            <td>Sanjayboharasbbb@gmail.com</td>
+            <td>9571557896</td>
+           </tr>
+           <tr>
+            <td>Sanju</td>
+            <td>Sanjayboharasbbb@gmail.com</td>
+            <td>9571557896</td>
+            <td>Sanjay</td>
+            <td>Sanjayboharasbbb@gmail.com</td>
+            <td>9571557896</td>
+           </tr>
+           <>
+            <!-- <td colspan="3">Sanjay</td> -->
+            <td>Sanju</td>
+            <td>Sanjayboharasbbb@gmail.com</td>
+            <td>9571557896</td>
+            <td>Sanjay</td>
+            <td>Sanjayboharasbbb@gmail.com</td>
+            <td>9571557896</td>
+           </tr>
+    </table>
+</body>
+</html>
